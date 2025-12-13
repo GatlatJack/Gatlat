@@ -420,6 +420,29 @@
         </div>
     </section>
 
+    <!-- Quick Updates (JSON-driven, no HTML editing needed) -->
+    <section id="updates" class="blog">
+        <div class="container">
+            <h2 class="section-title">Quick Updates</h2>
+            <p class="blog-intro">Post short updates without editing HTML — just add entries to data/posts.json.</p>
+            <div id="updates-feed" class="blog-grid"></div>
+            <p class="blog-intro" style="margin-top: 12px; opacity: 0.85;">Add new posts by updating data/posts.json (title, date, body, optional image) or use the form below for quick local drafts.</p>
+
+            <!-- Inline editor for quick posting (stores locally in browser) -->
+            <div class="card" style="margin-top:20px; padding:16px; border-radius:12px; background:#f9f6f2; box-shadow:0 4px 14px rgba(0,0,0,0.08);">
+                <h3 style="margin-bottom:10px; color:#8b4513;">Quick Post (local)</h3>
+                <form id="quick-post-form" class="contact-form" style="display:grid; gap:10px;">
+                    <input type="text" name="title" placeholder="Title" required>
+                    <input type="date" name="date" required>
+                    <textarea name="body" rows="3" placeholder="What's new?" required></textarea>
+                    <input type="text" name="image" placeholder="Image URL (optional)">
+                    <button type="submit" class="btn btn-primary">Save locally</button>
+                    <small style="opacity:0.7;">Saved in your browser (localStorage). To publish for everyone, add to data/posts.json.</small>
+                </form>
+            </div>
+        </div>
+    </section>
+
     <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
