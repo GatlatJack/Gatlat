@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Finding Rhythm in Code",
+    "type": "article",
+    "date": "2025-11-15",
+    "blurb": "An essay on how programming patterns mirror poetic cadence and how both shape clear thinking.",
+    "cover": "assets/genedig.png",
+    "link": "blog/getting-started-programming.html",
+    "tags": ["article", "programming", "reflection"]
+  },
+  {
+    "title": "Montreal Winter",
+    "type": "poetry",
+    "date": "2025-12-05",
+    "blurb": "A short poem about first snow, borrowed warmth, and city lights on cold streets.",
+    "cover": "assets/Jack.png",
+    "link": "assets/Montreal_Winter_poem.pdf",
+    "tags": ["poetry", "montreal"]
+  },
+  {
+    "title": "The Crossing",
+    "type": "story",
+    "date": "2025-10-02",
+    "blurb": "A narrative about resilience, community, and the courage to start over.",
+    "cover": "assets/story.png",
+    "link": "blog/my-journey-from-kakuma-to-mcgill.html",
+    "tags": ["story", "journey"]
+  },
+  {
+    "title": "Lines of Hope",
+    "type": "comic",
+    "date": "2025-09-12",
+    "blurb": "Sketches and panels exploring hope, faith, and humor in student life.",
+    "cover": "assets/image.png",
+    "link": "assets/Lines_of_Hope_comic.pdf",
+    "tags": ["comic", "sketch"]
+  },
+  {
+    "title": "Learning Without Limits",
+    "type": "book",
+    "date": "2025-08-01",
+    "blurb": "A short e-book on self-driven learning, routines, and building durable habits.",
+    "cover": "assets/Jack.png",
+    "link": "assets/Learning_Without_Limits.pdf",
+    "tags": ["book", "self-development"]
+  }
+]

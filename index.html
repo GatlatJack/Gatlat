@@ -443,6 +443,27 @@
         </div>
     </section>
 
+    <!-- Writings & Publications -->
+    <section id="writings" class="blog" style="padding-top: 40px;">
+        <div class="container">
+            <h2 class="section-title">Writings & Publications</h2>
+            <p class="blog-intro">Articles, poetry, stories, comics, and books.</p>
+
+            <div class="filter-bar" style="display:flex; gap:8px; flex-wrap:wrap; margin-bottom:16px;">
+                <button class="btn btn-secondary filter-btn" data-filter="all">All</button>
+                <button class="btn btn-secondary filter-btn" data-filter="article">Articles</button>
+                <button class="btn btn-secondary filter-btn" data-filter="poetry">Poetry</button>
+                <button class="btn btn-secondary filter-btn" data-filter="story">Stories</button>
+                <button class="btn btn-secondary filter-btn" data-filter="comic">Comics</button>
+                <button class="btn btn-secondary filter-btn" data-filter="book">Books</button>
+            </div>
+
+            <div id="writings-grid" class="blog-grid"></div>
+
+            <p class="blog-intro" style="margin-top: 12px; opacity: 0.85;">Add new entries in data/writings.json with title, type, date, blurb, cover, link, tags.</p>
+        </div>
+    </section>
+
     <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
