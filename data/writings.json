@@ -13,7 +13,7 @@
     "type": "poetry",
     "date": "2025-12-05",
     "blurb": "A short poem about first snow, borrowed warmth, and city lights on cold streets.",
-    "cover": "assets/Jack.png",
+    "cover": "assets/image.png",
     "link": "assets/Montreal_Winter_poem.pdf",
     "tags": ["poetry", "montreal"]
   },
@@ -40,7 +40,7 @@
     "type": "book",
     "date": "2025-08-01",
     "blurb": "A short e-book on self-driven learning, routines, and building durable habits.",
-    "cover": "assets/Jack.png",
+    "cover": "assets/image.png",
     "link": "assets/Learning_Without_Limits.pdf",
     "tags": ["book", "self-development"]
   }
